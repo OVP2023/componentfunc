@@ -21,7 +21,7 @@ function App(props) {
           <div className="purchase-info">
             <div className="price">
               {props.currency}
-              {props.price}
+              {props.price.toFixed(2)}
             </div>
             <button>Добавить в корзину</button>
           </div>
